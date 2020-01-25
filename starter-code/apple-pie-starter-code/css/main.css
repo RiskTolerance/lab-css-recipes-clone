@@ -5,7 +5,7 @@
 }
 
 header {
-    background-image: url(/apple-pie-starter-code/images/apple-pie.jpg);
+    background-image: url(../images/apple-pie.jpg);
     background-size: cover;
     position: relative;
     height: 100vh;
