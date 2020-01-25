@@ -1,0 +1,97 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(/apple-pie-starter-code/images/apple-pie.jpg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 6rem;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.3rem;
+    text-align: left; 
+    padding-bottom: 20PX;
+}
+
+pre {
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+li {
+    padding-top: 5px;
+}
+
+.main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    align-self: center;
+    width: 65vw;
+}
+
+.description {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.recipe-info {
+/*image*/
+    padding-bottom: 20px;
+    width: 30vw;
+}
+
+.ingredients {
+    padding-top: 40px;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.ingredients li {
+    list-style-type: none;
+}
+
+.ingredients h2 {
+    padding-bottom: 20px;
+}
+
+.cooking-info {
+/*image*/
+padding-top: 40px;
+width: 30vw;
+}
+
+.directions {
+    padding-top: 40px;
+    flex-direction: column;
+    justify-content: left;
+    padding-bottom: 50px;
+}
+
+.directions h2 {
+    padding-bottom: 20px;
+}
